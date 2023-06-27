@@ -5,7 +5,8 @@ O projeto contém um arquivo docker-compose.yml que permite configurar e executa
  Por padrão o camunda vem em Docker, entõa para melhores práticas elaboramos ele em 
 docker compose para que ele subisse junto ao Alfresco.
 O Alfresco por default vem em postgres, alteramos para mysql e utlizamos o pacote
-do mariadb.
+do mariadb, ambos banco de dados possuem as mesmas dependencias e configurações então
+não há problema em ultiza-ló.
 
 Este docker compose foi elaborado em base a um projeto real.
 
